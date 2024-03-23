@@ -12,7 +12,7 @@ int main()
         cin >> n;
         string s;
         vector<string> s1, s2, s3;
-        vector<int> score1, score2, score3, ans;
+        vector<int> score1, score2, score3;
         // Take input for 3 rows
         for (int i = 0; i < n; i++)
         {
@@ -99,9 +99,6 @@ int main()
             if (score3[i] == 1)
                 z += 3;
         }
-        ans.push_back(x);
-        ans.push_back(y);
-        ans.push_back(z);
         cout << x << " " << y << " " << z << endl;
     }
     return 0;
